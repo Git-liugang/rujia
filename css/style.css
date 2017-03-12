@@ -1,0 +1,130 @@
+/* reset */
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+/*em{font-style: normal;}*/
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+
+/* public */
+.fl{float: left;}
+.fr{float: right;}
+.clear{overflow: hidden; zoom: 1;}
+*{font-family: "微软雅黑";}
+body{font-size: 20px;}
+
+
+/*index主页*/
+.wrap{max-width: 960px; margin: 0 auto;}
+/*头部*/
+.head img{width: 100%;}
+/*END头部*/
+.con p{padding: 0 10%;}
+
+.main{background: url(../img/bg.png) no-repeat;background-size: 100%;}
+/*活动详情*/
+.con{text-align: center;}
+.con .privilege{padding: 5% 5%;text-align: left;text-indent: 2em;}
+.privilege a{display: inline-block;width: 111px;height: 36px;background: url(../img/detail.png);background-size: 100%, 100%;vertical-align: middle;}
+.privilege strong{color: #ea5419;}
+
+/*下载*/
+.main .download{padding: 0 15%;}
+.download img{width: 49%;padding-bottom:  5%;}
+/*END下载*/
+
+.con em{color: #e89015;}
+.line img{width: 100%;padding: 2% 0;}
+
+/*注册*/
+.user{background: url(../img/user.jpg);background-size: 100% 100%}
+.mobile{background: url(../img/mobile.jpg);background-size: 100% 100%}
+.register_form{text-align: center;}
+.register_form input{border: none;}
+.reg input{width: 259px;height: 26px;display: block;margin: 0 auto 20px;}
+.security_code input{width: 153px;height: 26px;background: url(../img/security_code.jpg);background-size: 100% 100%}
+.get_code input{width: 106px;height: 26px;cursor: pointer;color: #ffb22c;background: url(../img/btn_code.jpg);background-size: 100% 100%}
+.check{width: 259px;margin: 0 auto;}
+.activity img,.share img{width: 50%;min-width: 179px;max-width: 356px;display: block;margin: 0 auto 20px}
+form .share img{width: 259px;}
+.register_submit span{display: inline-block;width: 96px;font-size: 14px;margin-top: 23px;}
+.register_submit em {font-style: normal;color: #ff0903;}
+.register_submit input{margin-top: 23px;width: 90px;vertical-align: top;height: 34px;background: url(../img/register.png) 0 0 no-repeat;background-size: 100% 100%;cursor: pointer;margin-left: 2%;}
+.register_submit{margin-bottom: 20px;}
+/*END注册*/
+
+/*底部*/
+.footer{background: #e89316;color: white;text-align: center;padding: 10px 0;font-weight: bold;}
+.footer .weixin{margin-bottom: 10px;}
+/*END底部*/
+
+/*END index主页*/
+
+/*活动详情activity_detail*/
+.back{width: 78px;height: 30px;background: url(../img/back.png) no-repeat;color: white; line-height: 30px;text-align: center;margin-top: 10px;background-size: 100% 100%;}
+.main_activity_detail h1{padding-top: 50px;text-align: center;color: #ec5510;}
+.main_activity_detail h2{color: #ec5510;}
+.main_activity_detail div{padding:0 5%;}
+.main_activity_detail ul{padding-left: 2em;}
+.main_activity_detail .activity_con{padding-bottom: 40px;}
+.main .more{color: #ed5f1d;line-height: 30px;}
+.more .note{display: block;border: 3px solid #ed5f1d;padding: 15px 10px;margin-top: 10px;margin-bottom: 20px;}
+.main_activity_detail .contain{text-align: center;}
+/*END活动详情activity_detail*/
+
+/*好友分享main_share_friend*/
+.main_share_friend{text-align: center;}
+.main_share_friend .tips{padding-top: 60px;padding: 60px 5% 0;text-align: left; }
+.tips a{display: inline-block;width: 80px;height: 30px;background: url(../img/register.png) no-repeat;background-size: 100% 100%;vertical-align: middle;}
+.tips span{color: #ed5410;}
+.number{width: 100%;height: 40px;margin-bottom: 8px;border: 1px solid #c5c5c5;background-color: #fbfbfb;}
+.main_share_friend .share_form{width: 50%;margin: 0 auto;padding-top: 5%;}
+.share_submit{background: url(../img/submit.png) no-repeat;width: 220px;height: 55px;background-size: 100% 100%;border: none;cursor:pointer;margin: 10% 0;}
+/*END好友分享main_share_friend*/
+
+
+/*已是会员main_member*/
+.main_con{text-align: center;padding: 10% 10px 0;}
+.main_con strong{color: #ed5411;line-height: 40px;}
+.main_con p{text-indent: 2em;text-align: left;padding-bottom: 10%;}
+
+/*注册成功*/
+.main_con span{display: block;padding-bottom: 5px;}
+.main_con .register_success_span{text-align: left;font-weight: bold;padding: 3% 5% 10%;}
+/*已是会员main_member*/
+
+
+/*分享成功 填写不规范*/
+.main_write_error_con strong,.main_share_success_con strong{padding: 10% 0;color: #ed5411;line-height: 40px;display: block;text-align: center;}
+
+
+
+.main span,.main strong,.main h2,.main h3,.main p{font-size: 1em;}
+/*媒体查询（media）*/
+@media screen and (max-width: 960px) {	
+	body{font-size: 16px;}	
+}
+@media screen and (max-width: 640px) {
+	body{font-size: 12px;}
+	.privilege a{width: 56px;height: 19px;}
+	.back{width: 55px;height: 18px;line-height: 18px;}
+	.tips a{width: 53px;height: 20px;}
+	.share_submit{width: 106px;height: 34px;}
+	.main_share_friend .share_form{width: 220px;}
+	.number{height: 25px;}
+	.reg input{width: 194px;height: 26px;}
+	.security_code input{width: 115px;}
+	.get_code input{width: 78px;}
+	.check{width: 194px;}
+	form .share img{width: 194px;}
+	.register_submit input{width: 78px;height: 31px;}
+	.main .more{line-height: 25px;}
+	.main_activity_detail .activity_con{padding-bottom: 20px;}
+	.main h1{font-size: 16px;}
+}
+@media screen and (max-width: 320px) {
+	.privilege a{width: 42px;height: 14px;}
+}
